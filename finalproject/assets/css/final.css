@@ -1,0 +1,373 @@
+*{
+     margin: 0;
+     padding:0;
+     box-sizing: border-box;
+     font-family: "Press Start 2P", sans-serif;
+     line-height: 150%;
+}
+ div#page-wrapper{
+     box-sizing: border-box;
+     float:left;
+     margin-top: 0;
+     width:100%;
+}
+ .image img {
+     border-radius: 0.375em;
+     display: block;
+     width: 40%;
+     overflow: hidden;
+     margin: auto;
+}
+ a img{
+     height: auto;
+}
+ .posts article{
+     padding: 2vh;
+}
+ .dropdown {
+     float: left;
+     overflow: hidden;
+}
+ .dropdown .dropbtn {
+     font-size: 16px;
+     border: none;
+     outline: none;
+     color: #818181;
+     padding: 14px 16px;
+     background-color: inherit;
+     font-family: inherit;
+     margin: 0;
+     padding: 8px 8px 15px 32px;
+}
+ .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #f9f9f9;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+}
+ .dropdown-content a {
+     float: none;
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     text-align: left;
+}
+ .dropdown-content a:hover {
+     background-color:#111;
+     color: white;
+}
+ .dropdown:hover .dropdown-content {
+     display: block;
+}
+ div#content-1{
+     box-sizing: border-box;
+     float:left;
+     height: 100%;
+}
+ div#content-2{
+     box-sizing: border-box;
+     float:right;
+}
+ body{
+     background-color: #2A2D38;
+     color:white;
+     margin: 4vh;
+     line-height: 200%;
+}
+ header{
+     background-color: #CE5F93;
+     text-align: center;
+     font-size: 3vw;
+}
+ .image img {
+     display: block;
+     width: 100%;
+     padding-bottom: 1%;
+}
+ article{
+     float: left;
+     position: relative 
+}
+ h2{
+     text-align: center;
+     font-weight:bold;
+     margin-top: 4vh;
+}
+ .posts article p{
+     width: 100%;
+}
+ .posts{
+     display: flex;
+}
+ p{
+     box-sizing: border-box;
+}
+ a{
+     color: white;
+}
+ div#content2{
+     box-sizing: border-box;
+     float: none;
+     height: auto;
+     width: auto;
+}
+ header.main{
+     background-image: url("../images/pic01.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     height: auto;
+     border: solid 7px black;
+     margin-top: 4vh;
+     margin-bottom: 4vh;
+     padding: 3vh;
+}
+ footer{
+     clear:both;
+     padding-top: 1%;
+     padding-bottom: 1%;
+     text-align:center;
+     background-color: #B0C2D5;
+     color: black;
+}
+ .features {
+     display: -moz-flex;
+     display: -webkit-flex;
+     display: -ms-flex;
+     display: flex;
+     -moz-flex-wrap: wrap;
+     -webkit-flex-wrap: wrap;
+     -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
+     margin: 0 0 2em -3em;
+     width: calc(100% + 3em);
+}
+ .features article {
+     -moz-align-items: center;
+     -webkit-align-items: center;
+     -ms-align-items: center;
+     align-items: center;
+     display: -moz-flex;
+     display: -webkit-flex;
+     display: -ms-flex;
+     display: flex;
+     margin: 0 0 3em 3em;
+     position: relative;
+     width: calc(50% - 3em);
+}
+ .show{
+     position: fixed;
+     display: block;
+}
+ .remove{
+     display: none;
+}
+/* SIDEBAR MENU */
+ .sidebar {
+     height: 100%;
+    /* 100% Full-height */
+     width: 0;
+    /* 0 width - change this with JavaScript */
+     position: fixed;
+    /* Stay in place */
+     top: 0;
+     left: 0;
+     background-color: #111;
+    /* Black*/
+     overflow-x: hidden;
+    /* Disable horizontal scroll */
+     padding-top: 60px;
+    /* Place content 60px from the top */
+     transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidebar */
+     z-index: 5;
+}
+/* The sidebar links */
+ .sidebar a {
+     padding: 8px 8px 8px 32px;
+     text-decoration: none;
+     color: #818181;
+     display: block;
+     transition: 0.3s;
+}
+/* When you mouse over the navigation links, change their color */
+ .sidebar a:hover {
+     color: #f1f1f1;
+}
+/* Position and style the close button (top right corner) */
+ .sidebar .closebtn {
+     position: absolute;
+     top: 0;
+     right: 25px;
+     font-size: 36px;
+     margin-left: 50px;
+}
+/* The button used to open the sidebar */
+ .openbtn {
+     font-size: 20px;
+     cursor: pointer;
+     color: white;
+     background-color: transparent;
+     border: none;
+     position: fixed;
+     z-index: 2;
+}
+ .openbtn:hover {
+     background-color: #444;
+}
+/* ABOUT PAGE */
+ .header{
+     background-color:#A2C7E5;
+}
+ .abtpara{
+     width: 100%;
+     margin: 0% 3% 0% 3%;
+}
+ .abtimg{
+     height: auto;
+     width: 100%;
+}
+ .abtpara h4{
+     text-align: center;
+     background-color: #C1BDDB;
+}
+ .abt{
+     display: flex;
+}
+/* CONATACT PAGE */
+ .cont{
+     text-align: center;
+}
+ h4.cont{
+     background-color: #C1BDDB;
+}
+/* CREDITS PAGE */
+ h4.cred{
+     background-color: #C1BDDB;
+}
+ .cred{
+     text-align: center;
+}
+ h4.cred{
+     text-align: center;
+     font-size: 20px;
+}
+ h5.cred{
+     text-align: center;
+     font-size: 15px;
+}
+ .cred{
+     text-align: center;
+     font-size: 10px;
+}
+/* GAME PAGES */
+ header.fnafmain{
+     background-image: url("../images/pic08.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     height: auto;
+     border: solid 7px black;
+     margin-top: 4vh;
+     margin-bottom: 4vh;
+     padding: 7vh;
+}
+ header.aamain{
+     background-image: url("../images/pic09.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     height: auto;
+     border: solid 7px black;
+     margin-top: 4vh;
+     margin-bottom: 4vh;
+     padding: 7vh;
+}
+/* ACCORDIONS */
+
+ *, *:after, *:before {
+     box-sizing: border-box;
+}
+ :root {
+     font-size: 16px;
+}
+ *:focus {
+     outline: none;
+}
+ details div {
+     border-left: 2px solid #000;
+     border-right: 2px solid #000;
+     border-bottom: 2px solid #000;
+     padding: 1.5em;
+}
+ details div > * + * {
+     margin-top: 1.5em;
+}
+ details + details {
+     margin-top: .5rem;
+}
+ summary {
+     list-style: none;
+}
+ summary::-webkit-details-marker {
+     display: none;
+}
+ summary {
+     border: 2px solid #000;
+     padding: .75em 1em;
+     cursor: pointer;
+     position: relative;
+     padding-left: calc(1.75rem + .75rem + .75rem);
+}
+ summary:before {
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     left: .75rem;
+     content: "↓";
+     width: 1.75rem;
+     height: 1.75rem;
+     background-color: #000;
+     color: #FFF;
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     flex-shrink: 0;
+}
+ details[open] summary {
+     background-color: #465FAC;
+}
+ details[open] summary:before {
+     content: "↑";
+}
+ summary:hover {
+     background-color: #465FAC;
+}
+ a:hover {
+     box-shadow: 0 3px 0 0;
+}
+ code {
+     font-family: monospace;
+     font-weight: 600;
+}
+ #loadQuote{
+     font-size: 16px;
+     letter-spacing: 2px;
+     text-decoration: none;
+     color: #000;
+     cursor: pointer;
+     border: 3px solid;
+     padding: 0.25em 0.5em;
+     box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+     position: relative;
+     touch-action: manipulation;
+}
+ #loadQuote:active {
+     box-shadow: 0px 0px 0px 0px;
+     top: 5px;
+     left: 5px;
+}
+ 

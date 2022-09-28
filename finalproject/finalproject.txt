@@ -1,0 +1,10 @@
+Delia Jasper djasper
+
+https://cs-people.bu.edu/djasper/
+
+I created the CSS from scratch
+
+I met the interactive JS feature requirement by using both Typeform and a SnapWidget in the contact page along with using a template that i modified for accordion menus on the game pages.
+
+I met the interactive JS feature requirement from scratch by coding a random quote generator on the Home page.
+

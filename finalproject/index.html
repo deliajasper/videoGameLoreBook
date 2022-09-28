@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+   <head>
+      <title>	Home | Video Game Lorebook</title>
+      <meta charset="utf-8" />
+      <link rel="stylesheet" href="assets/css/final.css" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+      <script src="https://kit.fontawesome.com/b789ba98e1.js" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   </head>
+   <body>
+      <div id="wrapper">
+         <div class="inner">
+            <div id="main">
+               <button class="openbtn" onclick="openNav()">						
+               <i class="fa-solid fa-bars fa-lg" id = "menubar"></i>
+               </button>
+            </div>
+            <div id="mySidebar" class="sidebar">
+               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+               <a href="index.html">Home</a>
+               <div class="dropdown">
+                  <button class="dropbtn">Games</button>
+                  <div class="dropdown-content">
+                     <a href="fnaf.html">Five Nights at Freddy's</a>
+                     <a href="aa.html">Ace Attorney</a>
+                  </div>
+               </div>
+               <a href="about.html">About</a>
+               <a href="contact.html">Contact</a>				 
+               <a href="credits.html">Credits</a>
+            </div>
+            <div class="content">
+               <header class = "main">
+                  <h1>Welcome to<br>
+                     The Video Game Lorebook
+                  </h1>
+                  <br>
+                  <p>Your ultimate guide to overcomplicated video game lore.</p>
+               </header>
+            </div>
+            <header class="major">
+               <h2>Features</h2>
+            </header>
+            <div class="features">
+               <article>
+                  <i style="padding: 0.5em;" class="fa-solid fa-gamepad fa-2xl icon"></i>
+                  <div class="content">
+                     <h3>Lore Overview</h3>
+                     <p>Exactly what it sounds like. This is the straight up lore. An easier to read version of what is on the Wiki.</p>
+                  </div>
+               </article>
+               <article>
+                  <i style="padding: 0.5em;" class="fa-solid fa-dice-d20 fa-2xl icon"></i>
+                  <div class="content">
+                     <h3>Character Descriptions</h3>
+                     <p>A list and detailed descriptions of the important characters in the game.</p>
+                  </div>
+               </article>
+               <article>
+                  <i style="padding: 0.5em;" class="fa-solid fa-ghost fa-2xl icon"></i>
+                  <div class="content">
+                     <h3>Timeline</h3>
+                     <p>The approximate timeline of the games (if there are multiple) and the events that happen around the games.</p>
+                  </div>
+               </article>
+               <article>
+                  <i style="padding: 0.5em;" class="fa-solid fa-heart fa-2xl icon"></i>
+                  <div class="content">
+                     <h3>Author's Thoughts</h3>
+                     <p>The thoughts of the author, their favorite characters and games in the series along with their favorite parts of the lore.</p>
+                  </div>
+               </article>
+            </div>
+            <header class="major">
+               <h2>Games We Will Cover</h2>
+            </header>
+            <div class="posts">
+               <article>
+                  <a href="fnaf.html" class="image"><img src="assets/images/pic02.jpg" alt="The Five Nights at Freddy's Security Breach Promotion Image, link to the FNAF information page." /></a>
+                  <h3>Five Nights at Freddy's</h3>
+                  <p>This indie horror series about haunted animatronics in a pizzeria has grown to so much more. But it has one of the most complicated lores of all.</p>
+                  <br>
+                  <p> <a href="fnaf.html"> More </a> </p>
+               </article>
+               <article>
+                  <a href="aa.html" class="image"><img src="assets/images/pic03.jpg" alt="The Ace Attorney Trilogy Re-Release Promotion Image, link to the Ace Attorney Information page" /></a>
+                  <h3>Ace Attorney</h3>
+                  <p>This game series of an attorney and his companions has more lore than one may think. From disbarment to adoption and murder. Learn about it here.</p>
+                  <br>
+                  <p> <a href="aa.html"> More </a> </p>
+               </article>
+            </div>
+            <header class="major">
+               <h2>Random Quote Generator</h2>
+            </header>
+            <br>
+            <div id="quote-box">
+               <p class="quote">And to you, my brave volunteer, who somehow found this job listing not intended for you. Although there was a way out planned for you, I have a feeling that's not what you want. I have a feeling that you are right where you want to be. I am remaining as well, I am nearby. </p>
+               <p class="source">Henry Emily</p>
+            </div>
+            <button id="loadQuote" onclick = "printQuote();">Show another quote</button>
+         </div>
+         <br>
+         <!-- Footer -->
+         <footer id="footer">
+            <p class="copyright">Delia Jasper &copy; 2022.</p>
+         </footer>
+      </div>
+      <script src = "assets/js/final.js"></script>
+   </body>
+</html>
